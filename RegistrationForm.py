@@ -26,7 +26,6 @@ if st.button("Register"):
         st.success("Registration Successful!")
         st.write("### User Details")
         st.write("Name:", name)
-        st.write("Email:", email)
         st.write("Age:", age)
         st.write("Gender:", gender)
         st.write("Course:", course)
