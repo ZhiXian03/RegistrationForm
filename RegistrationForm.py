@@ -7,7 +7,7 @@ name = st.text_input("Your Name: ")
 if st.button("Submit"):
 	st.success(f"Hai {name}! Welcome to PBU")
 
-password = st.text("Password", type="password")
+password = st.text_input("Password", type="password")
 
 age = st.number_input("Age: ", min_value=1, max_value=100)
 
